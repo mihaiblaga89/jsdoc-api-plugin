@@ -1,0 +1,41 @@
+{
+  "name": "jsdoc-api-plugin",
+  "version": "0.1.0",
+  "description": "Plugin to add custom HTTP api tags for documenting remote routes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'boo on me I have no tests.'",
+    "clean": "rm -rf ./out/*;"
+  },
+  "keywords": [
+    "jsdoc",
+    "documentation",
+    "express",
+    "restful",
+    "rest",
+    "api",
+    "route",
+    "plugin"
+  ],
+  "engines": {
+    "node": ">=4.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/besfro/jsdoc-api-plugin.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": {
+    "email": "Lengchars@gmail.com",
+    "name": "clc"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "jsdoc": "^3.4.3"
+  },
+  "peerDependencies": {
+    "jsdoc": "^3.4.3"
+  }
+}
